@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class EnemyCounter : MonoBehaviour
 {
-    private EnemyCounter Instance { get; private set; }
+    private EnemyCounter Instance { get; set; }
     private float _enemyCount;
     Enemy[] _enemies;
 
